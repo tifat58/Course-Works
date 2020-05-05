@@ -1,0 +1,23 @@
+Task 1.1:
+Which kind of filter is it? Is it a low- or high-pass filter?
+The pre-emphasis filter is a high-pass filter.
+
+Task 1.2:
+How many frames can be produced from k samples?
+depending on the value of `shift', k/shift frames
+can be produced in total.
+
+Task 1.3:
+Could you see some similarities?
+The spectogram, though barely visible, highlights the same spots
+as the visible peaks from the original audiostream waveform, as in
+where the words are spoken in the audio.
+
+Task 1.5:
+Could you see some similarities?
+The highlighted spots are the same as from the spectogram itself,
+but they seem to have become larger.
+But still, they are only barely visible.
+
+Task 2.1:
+see the implementation in linear_fit.m
